@@ -1,5 +1,5 @@
-# ruby-hangman
-Simple hangman game playable in terminal via ruby.<br/>
+# ruby-word-guessing-game
+Simple word guessing game playable in terminal via ruby.<br/>
 ## Install and Run
 npm install ruby or brew install ruby or your preferred package manager<br/>
 in terminel run ruby ruby-hangman <br/>
