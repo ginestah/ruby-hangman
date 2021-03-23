@@ -1,5 +1,4 @@
 file = File.open("words.txt")
-# file_data = file.read
 file_data = file.readlines.map(&:chomp)
 $file_data = file_data.reject{|c| c.empty?}
 $guessed_letters = []
