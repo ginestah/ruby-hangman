@@ -76,7 +76,8 @@ if(@lives == 0)
  @new_word.solution
  puts "play again yes/no?"
  @answer = gets.chomp
- if(@answer == 'yes')
+ if(@answer == 'yes'|| @answer == 'y')
+  $guessed_letters.clear
    MysteryWordGame.new
  end
   break
